@@ -1,0 +1,115 @@
+/*
+    auteur: Nicolas Chourot
+    modifié par: Charles Nolet
+ */
+body {
+    background-image: linear-gradient(45deg, lightblue, darkblue);
+}
+.container {
+    margin-bottom: 100px;
+}
+button {
+    padding: 2px 3px;
+    padding-left:4px;
+    font-size: 14px;
+    color: white;
+    background-color: darkblue;
+}
+button:hover {
+    background-color: lightblue;
+}
+.appHeader {
+    color:white;
+    font-weight:bolder;
+}
+.header-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.header-bookmarks-container {
+    display: grid;
+    grid-template-columns: 25% 25% 35% 5% 10%;
+}
+.header-bookmarks-container div {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+.bookmark-list-scroll-containter {
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: white;
+}
+.bookmark-list-container {
+    display: grid;
+    grid-template-columns:   25% 25% 35% 5% 10%;
+}
+.bookmark-list-container div {
+    text-align: left;
+    padding: 5px;
+}
+.oddRow {
+    background-color: white;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+.evenRow {
+    background-color: rgb(220, 255, 220);
+    border-top:1px solid rgb(220, 255, 220);;
+    border-bottom:1px solid rgb(220, 255, 220);;
+}
+.selectedRow {
+    border-top:1px solid blue;
+    border-bottom:1px solid blue;
+}
+.waiting {
+    font-size: 14px;
+    font-weight: bold;
+    color:blue;
+}
+.httpError {
+    font-size: 14px;
+    font-weight: bold;
+    color:red;
+}
+.form-container {
+    overflow-y: hidden;
+}
+.form-bookmark-container {
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 10% 10%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.form-search-container
+{
+    display: grid;
+    grid-template-columns:  30% 30% 30%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.form-bookmark-container div {
+    text-align: left;
+    padding: 5px;
+    background-color: lightblue;
+}
+.array-container {
+    border:1px solid black;
+}
+.cell {
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+    
+
